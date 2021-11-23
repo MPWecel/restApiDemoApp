@@ -95,7 +95,7 @@ namespace RestApiDemo.Web.Api.Controllers
                 ResourceContentDictionary = createdResource.ResourceContents.ToDictionary(x => x.Key, x => x.Val)
             };
 
-            //return CreatedAtAction(nameof(GetResourceById), new { id = createdResource.Id }, createdResource); //Created Url of a resource - needed
+            //return CreatedAtAction(nameof(GetResourceById), new { id = createdResource.Id }, createdResource);
             return Ok(result);
         }
 
@@ -123,7 +123,6 @@ namespace RestApiDemo.Web.Api.Controllers
                 await _repository.UpdateAsync(resourceFromRepo);
 
                 return NoContent();
-                //return Ok(resourceFromRepo);
             }
         }
 

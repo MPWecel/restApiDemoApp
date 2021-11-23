@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RestApiDemo.DomainCore.Models.Resource;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RestApiDemo.Infrastructure.Data
 {

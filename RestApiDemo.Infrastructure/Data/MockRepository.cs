@@ -73,12 +73,6 @@ namespace RestApiDemo.Infrastructure.Data
                 {
                     Id=1,
                     Name = "TestResource1",
-                    //ResourceContentDictionary = new Dictionary<string, string>()
-                    //{
-                    //    { "Key1_1"  ,   "Value1_1" },
-                    //    { "Key1_2"  ,   "Value1_2" },
-                    //    { "Key1_3"  ,   "Value1_3" }
-                    //}
                     ResourceContents = new List<ResourceContent>()
                     {
                         new ResourceContent() { Key = "Key1_1"  ,   Val = "Value1_1" },
@@ -93,12 +87,6 @@ namespace RestApiDemo.Infrastructure.Data
                 {
                     Id = 2,
                     Name = "TestResource2",
-                    //ResourceContentDictionary = new Dictionary<string, string>()
-                    //{
-                    //    { "Key2_1"  ,   "Value2_1" },
-                    //    { "Key2_2"  ,   "Value2_2" },
-                    //    { "Key2_3"  ,   "Value2_3" }
-                    //}
                     ResourceContents = new List<ResourceContent>()
                     {
                         new ResourceContent() { Key = "Key2_1"  ,   Val = "Value2_1" },
@@ -113,12 +101,6 @@ namespace RestApiDemo.Infrastructure.Data
                 {
                     Id = 3,
                     Name = "Alamakota",
-                    //ResourceContentDictionary = new Dictionary<string, string>()
-                    //{
-                    //    { "Ala"     ,   "ma kota" },
-                    //    { "Tola"    ,   "ma psa" },
-                    //    { "Ola"     ,   "ma rybki" }
-                    //}
                     ResourceContents = new List<ResourceContent>()
                     {
                         new ResourceContent() { Key = "Ala"  ,   Val = "ma kota" },

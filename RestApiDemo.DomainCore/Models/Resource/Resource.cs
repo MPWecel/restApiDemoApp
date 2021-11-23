@@ -8,7 +8,6 @@ namespace RestApiDemo.DomainCore.Models.Resource
     {
         [Required]
         public string Name { get; set; }
-        //public Dictionary<string, string> ResourceContentDictionary { get; set; }
         [Required]
         public List<ResourceContent> ResourceContents { get; set; }
 
